@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Apps Launcher — AmongUsLauncher</title>
+    <style>
+        /* Общие настройки */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #fafafa;
+            color: #333;
+        }
+
+        /* Шапка */
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: #EC7D79;
+            color: white;
+        }
+
+        #logo img {
+            height: 50px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav li {
+            margin-left: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Главная страница */
+        #hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-image: linear-gradient(to top left, #EC7D79, #FA9979);
+            color: white;
+        }
+
+        .btn-primary {
+            background-color: #DA4453;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: transform 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            transform: scale(1.1);
+        }
+
+        /* Раздел "О продукте" */
+        #about {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        /* Раздел особенностей */
+        #features {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        /* Нижняя часть страницы */
+        footer {
+            background-color: #EC7D79;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" id="logo"><img src="amongus_launcher_logo.png" alt="AmongUsLauncher Logo"></a>
+            <ul>
+                <li><a href="#about">О моём лаунчере</a></li>
+                <li><a href="#features">Фичи</a></li>
+                <li><a href="#download">Скачать</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>AmongUsLauncher — Мой уникальный лаунчер приложений!</h1>
+        <p>Самостоятельно создал мощный и быстрый лаунчер приложений, подходящий для ежедневного использования.</p>
+        <a href="https://cloud.mail.ru/public/gAwH/xkoNeTaEg" target="_blank" class="btn-primary">Получить мою разработку</a>
+    </section>
+
+    <section id="about">
+        <h2>Что такое AmongUsLauncher?</h2>
+        <p>СредиНас-Лаунчер (AmongUsLauncher) — это мое личное творение, предназначенное для быстрой и эффективной организации моих самописных приложений. Создан собственными руками, от идеи до финального релиза.</p>
+    </section>
+
+    <section id="features">
+        <h2>Фишки моего лаунчера:</h2>
+        <ul>
+            <li>Идеально подходит для самостоятельного тестирования и демонстрации моих разработок</li>
+            <li>Максимально быстрая работа благодаря ручной оптимизации</li>
+            <li>Отсутствие рекламы и сторонних компонентов</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Авторская разработка AmongUsLauncher. Права принадлежат автору.</p>
+    </footer>
+</body>
+</html>
